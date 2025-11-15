@@ -1,13 +1,13 @@
 
-def solve(vectors):
-    m = len(vectors)
-    n = len(vectors[0])
-    mean = [0]*n
+def vector_prom(vectores):
+    m = len(vectores)
+    n = len(vectores[0])
+    promedio = [0]*n
 
-    for vec in vectors:
+    for vec in vectores:
         for j in range(n):
-            mean[j] += vec[j]
+            promedio[j] += vec[j]
 
-    return [x/m for x in mean]
+    return [x/m for x in promedio]
 
-print(solve([[1,2],[3,4],[5,6]]))
+print(vector_prom([[1,2],[3,4],[5,6]]))

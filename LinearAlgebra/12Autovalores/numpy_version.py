@@ -1,2 +1,10 @@
 import numpy as np
-# Ejercicio 12 con numpy
+
+A = np.array([[4, 1],
+              [1, 3]])
+
+
+autovalores, autovectores = np.linalg.eigh(A)
+
+print("Autovalores:", autovalores)
+print("Autovectores:\n", autovectores)

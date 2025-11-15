@@ -1,2 +1,7 @@
 import numpy as np
-# Ejercicio 7 con numpy
+
+x = np.array([6, 3, 5])
+
+ex = np.exp(x)
+softmax = ex / np.sum(ex)
+print(softmax)

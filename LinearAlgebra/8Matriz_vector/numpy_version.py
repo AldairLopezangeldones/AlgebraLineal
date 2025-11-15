@@ -1,2 +1,9 @@
 import numpy as np
-# Ejercicio 8 con numpy
+
+A = np.array([[1, 2],
+              [3, 4]])
+x = np.array([5, 6])
+
+y = A @ x  
+print(y)  
+

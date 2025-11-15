@@ -1,2 +1,7 @@
 import numpy as np
-# Ejercicio 9 con numpy
+
+A = np.array([[12, 9],
+              [10, 5]])
+
+T = A.T
+print(T)

@@ -1,2 +1,7 @@
 import numpy as np
-# Ejercicio 1 con numpy
+
+vec = np.array([5, 12, 5])
+
+
+norma = np.linalg.norm(vec)
+print(norma) 

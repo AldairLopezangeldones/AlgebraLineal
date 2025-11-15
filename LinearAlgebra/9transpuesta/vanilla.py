@@ -1,5 +1,5 @@
 
-def solve(A):
+def transpuesta(A):
     m = len(A)
     n = len(A[0])
     T = [[0]*m for _ in range(n)]
@@ -10,4 +10,4 @@ def solve(A):
 
     return T
 
-print(solve([[1,2],[3,4]]))
+print(transpuesta([[12,9],[10,5]]))

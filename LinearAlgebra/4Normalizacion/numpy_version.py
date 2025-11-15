@@ -1,2 +1,6 @@
 import numpy as np
-# Ejercicio 4 con numpy
+
+x = np.array([3, 4, 10])
+
+x_normalizado = x / np.linalg.norm(x)
+print(x_normalizado)

@@ -1,5 +1,5 @@
 
-def solve(A, x):
+def prod_matriz_vector(A, x):
     m = len(A)
     n = len(A[0])
     y = [0]*m
@@ -10,4 +10,4 @@ def solve(A, x):
 
     return y
 
-print(solve([[1,2],[3,4]], [5,6]))
+print(prod_matriz_vector([[1,2],[3,4]], [5,6]))
